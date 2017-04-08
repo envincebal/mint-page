@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-family: "AvenirNext-Regular-Mint", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.container {
+	margin: 0 auto;
+	width: 800px;
+	padding: 55px 0 0 0;
+}
+
+.logo {
+	width: 110px;
+	float: left;
+}
+
+.signup-links {
+	float: right;
+	font-size: .9em;
+}
+
+.signup-links li {
+	display: inline-block;
+	padding: 25px 12px 8px 0;
+}
+
+.form-body {
+	clear: both;
+	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+	text-align: center;
+}
