@@ -24,7 +24,7 @@
 
 .signup-links li {
 	display: inline-block;
-	padding: 25px 12px 8px 0;
+	padding: 25px 9px 8px 0;
 }
 
 .form-body {
@@ -102,10 +102,36 @@ label {
 	text-decoration: none;
 }
 
+.line {
+	float: right;
+	border: 2px solid black;
+}
+
 .details {
 	float: right;
-	width: 30%;
-	display: inline-block;
+	width: 28%;
+	border-left: 3px solid #F5F5F5;
+	margin: 50px 25px;
+}
+
+.details div {
+	background-color: #F5F5F5;
+	margin: 0 0 0 25px;
+	padding: 23px 10px 0 27px;
+	height: 540px;
+}
+
+.details span {
+	font-size: 20px;
+}
+
+.details-list {
+	font-size: 11px;
+	padding: 10px 10px 0 12px;
+}
+
+.details-list li {
+	margin: 0 0 17px 0;
 }
 
 footer {
