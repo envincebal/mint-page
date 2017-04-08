@@ -30,8 +30,85 @@
 .form-body {
 	clear: both;
 	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+	height: 810px;
+}
+
+.form-body form {
+	width: 60%;
+	padding: 50px 0 0 50px;
+	float: left;
+}
+
+.form-head {
+	font-size: 30px;
+	line-height: 45px;
+}
+
+fieldset {
+	border: none;
+	margin: 28px 0 30px 0;
+}
+
+label {
+	display: block;
+	margin: 0 0 14px 0;
+	font-size: 14px
+}
+
+.text {
+	border-radius: 3px;
+	border: 1px solid #d8d8d8;
+	box-shadow: none;
+	height: 34px;
+	width: 320px;
+}
+
+.phone-caption {
+	display: block;
+	font-size: 10px;
+}
+
+.remember-me {
+	font-size: 13px;
+}
+
+.lock-icon {
+	background-color: #45CAE6;
+	color: #fff;
+}
+
+.submit {
+	background-color: #45CAE6;
+	border: none;
+	color: #FFF;
+	font-size: 13px;
+	padding: 10px 15px;
+	border-radius: 3px;
+}
+
+.signup-caption {
+	font-size: 12px;
+	padding: 10px 0 0 0;
+}
+
+.signup-caption a {
+	color: #45CAE6;
+}
+
+.signup-caption a:hover,
+.signup-caption a:active,
+.signup-caption a:visited,
+.signup-caption a:link {
+	text-decoration: none;
+}
+
+.details {
+	float: right;
+	width: 30%;
+	display: inline-block;
 }
 
 footer {
 	text-align: center;
+	clear: both;
 }
