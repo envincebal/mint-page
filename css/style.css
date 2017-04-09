@@ -17,14 +17,26 @@
 	float: left;
 }
 
+a:hover,
+a:link,
+a:visited,
+a:active {
+	text-decoration: none;
+}
+
 .signup-links {
 	float: right;
-	font-size: .9em;
+	font-size: .9em;	
+}
+
+.signup-links a {
+	color: #000;
 }
 
 .signup-links li {
 	display: inline-block;
 	padding: 25px 9px 8px 0;
+
 }
 
 .form-body {
@@ -72,11 +84,6 @@ label {
 	font-size: 13px;
 }
 
-.lock-icon {
-	background-color: #45CAE6;
-	color: #fff;
-}
-
 .submit {
 	background-color: #45CAE6;
 	border: none;
@@ -87,19 +94,12 @@ label {
 }
 
 .signup-caption {
-	font-size: 12px;
+	font-size: 11px;
 	padding: 10px 0 0 0;
 }
 
 .signup-caption a {
 	color: #45CAE6;
-}
-
-.signup-caption a:hover,
-.signup-caption a:active,
-.signup-caption a:visited,
-.signup-caption a:link {
-	text-decoration: none;
 }
 
 .line {
@@ -136,5 +136,57 @@ label {
 
 footer {
 	text-align: center;
-	clear: both;
+	margin: 70px;
+}
+
+.footer-list li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 35px;
+}
+
+.footer-list a:visited,
+.footer-list a:link {
+	text-decoration: none;
+	color: #a5a5a5;
+	font-size: 13px;
+}
+
+.footer-list li:hover {
+	text-decoration: underline;
+}
+
+.right-border {
+	border-right: 1px solid #a5a5a5;
+}
+
+.fineprint {
+	margin: 53px;
+	font-size: 12px;
+	color: #a5a5a5;
+	letter-spacing: 1px;
+}
+
+.fineprint a {
+	color: #45CAE6;
+}
+
+.security-links img {
+	margin: 0 20px;
+}
+
+.norton {
+	width: 85px;
+}
+
+.truste {
+	width: 140px;
+	padding: 0 0 7px 0;
+}
+
+.copyright {
+	font-size: 10px;
+	margin: 23px 0 0 0;
+	color: #a5a5a5;
+	letter-spacing: 0.5px;
 }
